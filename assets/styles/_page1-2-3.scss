@@ -60,15 +60,47 @@
 
 
         .about-company__nav__item1 {
-            height: 2rem;
+            display: inline-block;
+            padding: 8px 14px;
+            height: auto;
             text-decoration: none;
             color: $turquoise-color;
             font-size: 1.2rem;
-
+            font-weight: 600;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+            border-radius: 5px;
+            overflow: hidden;
+        
             &:hover {
                 color: white;
+                background: linear-gradient(135deg, #00C7C2, #008B8B);
+                box-shadow: 0 4px 12px rgba(0, 199, 194, 0.4);
+                transform: translateY(-2px);
+            }
+        
+            &:active {
+                transform: scale(0.95);
+                box-shadow: 0 2px 8px rgba(0, 199, 194, 0.3);
+            }
+        
+            &::after {
+                content: "";
+                position: absolute;
+                left: 50%;
+                bottom: -3px;
+                width: 0;
+                height: 3px;
+                background: #00C7C2;
+                transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+            }
+        
+            &:hover::after {
+                width: 100%;
+                left: 0;
             }
         }
+        
 
         @media screen and (max-width: 1153px) {
             display: none;
