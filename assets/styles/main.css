@@ -77,11 +77,11 @@
   padding: 12px 20px; 
   height: auto;
   text-decoration: none;
-  color: #00C7C2;
+  color: #E57373;
   font-size: 1.8rem; 
   font-weight: 700; 
   position: fixed;
-  top: 20px; /* Поднял элементы выше */
+  top: 20px; 
   transition: all 0.3s ease-in-out;
   border-radius: 8px; 
   overflow: hidden;
@@ -89,14 +89,14 @@
 
 .about-company__header1 .about-company__nav1 .about-company__nav__item1:hover {
   color: white;
-  background: linear-gradient(135deg, #00C7C2, #008B8B);
-  box-shadow: 0 6px 14px rgba(0, 199, 194, 0.4);
+  background: linear-gradient(135deg, #E57373, #D32F2F);
+  box-shadow: 0 6px 14px rgba(229, 115, 115, 0.4);
   transform: translateY(-2px);
 }
 
 .about-company__header1 .about-company__nav1 .about-company__nav__item1:active {
   transform: scale(0.95);
-  box-shadow: 0 3px 10px rgba(0, 199, 194, 0.3);
+  box-shadow: 0 3px 10px rgba(229, 115, 115, 0.3);
 }
 
 .about-company__header1 .about-company__nav1 .about-company__nav__item1::after {
@@ -105,8 +105,8 @@
   left: 50%;
   bottom: -3px;
   width: 0;
-  height: 4px; /* Сделал линию чуть толще */
-  background: #00C7C2;
+  height: 4px;
+  background: #E57373;
   transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
 }
 
@@ -213,7 +213,7 @@
   .about-company__mobile-nav .about-company__mobile-menu .about-company__mobile-menu__item {
     display: block;
     padding: 4px 4px;
-    color: #00C7C2;
+    color: #E57373;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -400,7 +400,7 @@
 }
 
 .about-company__wrapper__first-page .about-company__content .about-company__decoration-line {
-  border-top: 10px solid #00C7C2;
+  border-top: 10px solid #E57373;
   width: 100%;
 }
 
@@ -533,9 +533,9 @@ element.style {
   display: flex;
   width: 3rem;
   height: 3rem;
-  border: 0.25rem solid #00C7C2;
+  border: 0.25rem solid #E57373;
   border-radius: 50%;
-  color: #00C7C2;
+  color: #E57373;
   font-size: 1.5rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
@@ -812,9 +812,9 @@ element.style {
     display: flex;
     width: 2.5rem;
     height: 2.5rem;
-    border: 0.25rem solid #00C7C2;
+    border: 0.25rem solid #E57373;
     border-radius: 50%;
-    color: #00C7C2;
+    color: #E57373;
     font-size: 1.5rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -1041,7 +1041,7 @@ element.style {
   font-weight: normal;
   font-size: 1.4rem;
   color: #424243;
-  border-left: 0.7rem solid #00C7C2;
+  border-left: 0.7rem solid #E57373;
   margin: auto 0;
   padding-left: 0.5rem;
 }
@@ -1291,7 +1291,7 @@ element.style {
 }
 
 .why-important__wrapper .why-important__card-set .why-important__card .why-important__number {
-  color: #00C7C2;
+  color: #E57373;
   font-size: 5rem;
   font-weight: bold;
   width: 6rem;
@@ -2970,7 +2970,7 @@ element.style {
   font-size: 2.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #00C7C2;
+  color: #E57373;
   margin-bottom: 3rem;
 }
 
@@ -2978,7 +2978,7 @@ element.style {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  border: solid 1px #00C7C2;
+  border: solid 1px #E57373;
   padding: 1.5rem 3rem;
   border-radius: 25px;
   font-size: 2.5rem;
@@ -2990,7 +2990,7 @@ element.style {
 }
 
 .wrapper-contacts .contacts-main__button:hover {
-  background-color: #00C7C2;
+  background-color: #E57373;
 }
 
 .wrapper-contacts .contacts-main__button:hover a {
@@ -3012,7 +3012,7 @@ element.style {
 
 .wrapper-contacts .contacts-main__button .contacts-main__button-link {
   text-decoration: none;
-  color: #00C7C2;
+  color: #E57373;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
