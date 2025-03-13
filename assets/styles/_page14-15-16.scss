@@ -3,7 +3,6 @@
     src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
 }
 
-// Page 14 STYLES Kate-4-Kotish start
 .page-14 {
     height: 98%;
     width: 96%;
@@ -52,11 +51,9 @@
     }
 }
 
-// Page 14 STYLES Kate-4-Kotish end
 
 
 
-// Page 15 STYLES Tatsiana-4-Kotish start
 .page-15 {
     width: 96%;
     margin: 0 2% 0 2%;
@@ -191,11 +188,9 @@
     }
 }
 
-// Page 15 STYLES Tatsiana-4-Kotish end
 
 
 
-// Page 16 STYLES Valeria-4-Kotish start
 .wrapper-contacts {
     box-sizing: border-box;
     height: 99vh;
@@ -288,12 +283,10 @@
 }
 
 
-// Page 16 STYLES Valeria-4-Kotish end
 
 
 
 
-// Page 14 ADAPTIVITY Kate-4-Kotish start
 @media screen and (min-width: 320px) and (max-width: 500px) {
     .page-14 {
         padding-top: 5rem;
@@ -384,15 +377,9 @@
     }
 }
 
-// Page 14 ADAPTIVITY Kate-4-Kotish end
 
 
-// Page 15 ADAPTIVITY Tatsiana-4-Kotish start
-// Вся адаптивность в стилях страницы
-// Page 15 ADAPTIVITY Tatsiana-4-Kotish end
 
-
-// Page 16 ADAPTIVITY Valeria-4-Kotish start
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .wrapper-contacts {
@@ -475,4 +462,3 @@
 
 }
 
-// Page 16 ADAPTIVITY Valeria-4-Kotish end

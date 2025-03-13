@@ -1146,6 +1146,7 @@ element.style {
 
 .topics__wrapper__three-page .topics__wrapper__img {
   width: 100%;
+  object-fit: fill;
 }
 
 @media screen and (max-width: 1006px) {
@@ -1167,9 +1168,13 @@ element.style {
 }
 
 .topics__wrapper__three-page .topics__wrapper__img .topics__img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: auto; 
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: cover; 
 }
+
 
 @media screen and (max-width: 674px) {
   .topics__wrapper__three-page .topics__wrapper__content .topics__list {
